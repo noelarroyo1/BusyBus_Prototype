@@ -1,0 +1,147 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  background: #333;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "SF Pro Text", "Proxima Nova", sans-serif;
+  font-size: 16px;
+  margin: 0 auto;
+  width: 414px;
+}
+
+
+.container {
+  background: #f9f9f9;
+}
+
+.bus-lines {
+  background: #f9f9f9;
+}
+
+.status_bar {
+  width: inherit;
+  height: auto;
+}
+
+.direction {
+  background: #2B5797;
+  color: white;
+  padding: 2% 4%;
+  margin-top: -5px;
+}
+
+.reroute {
+  background: black;
+}
+
+.o-o-s {
+  background: red;
+}
+
+.location {
+  border-bottom: solid 2px #C6C5CB;
+}
+
+.title {
+  display: inline-block;
+  color: #2B5797;
+  font-size: 1.375em;
+  font-weight: 500;
+  padding-left: 12%;
+  padding-right: 16%;
+}
+
+.fas.fa-chevron-left {
+  font-size: 1.8em;
+  color: #2B5797;
+  margin: 5% 4%;
+}
+
+.fas.fa-bars {
+  font-size: 1.6em;
+  color: #2B5797;
+}
+
+.busline-numbers {
+  font-size: 1.25em;
+  text-align: center;
+  color: #2B5797;
+  border: solid 2px #2B5797;
+  border-radius: 5px;
+  padding: 1%;
+  margin: 3% 2% 3% 4%;
+  display: inline-block;
+  width: 11%;
+}
+
+.busline-names {
+  font-size: 1.375em;
+}
+
+.content h2{
+  display: inline-block;
+}
+
+.arrival-time {
+  font-size: 1.3em;
+  margin-left: 17%;
+}
+
+.chevron {
+  font-size: 1em;
+  color: #C6C5CB;
+  text-align: right;
+  width: 3%;
+  display: inline-block;
+  margin-left: 2%;
+}
+
+#map {
+  background: #2B5797;
+}
+
+#first-time {
+  color: #30B547;
+  margin-left: 8%;
+}
+
+#second-time {
+  color: #000;
+  margin-left: 33.5%;
+}
+
+#third-time {
+  color: #000;
+  margin-left: 27%;
+}
+
+#fourth-time {
+  color: #000;
+  margin-left: 12%;
+}
+
+#fifth-time {
+  color: #000;
+  margin-left: 33.5%;
+}
+
+#sixth-time {
+  color: #000;
+  margin-left: 11%;
+}
+
+#seventh-time {
+  color: red;
+  margin-left: 22%;
+}
+
+#eighth-time {
+  color: red;
+  margin-left: 36%;
+}
+
+#ninth-time {
+  color: red;
+  margin-left: 13%;
+}
