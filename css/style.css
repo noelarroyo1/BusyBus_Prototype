@@ -4,20 +4,39 @@
 
 body {
   background: #333;
-  font-family: "SF Pro Text", "Proxima Nova", sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "SF Pro Text", "Proxima Nova", sans-serif;
   font-size: 16px;
-}
-
-.container {
   margin: 0 auto;
   width: 414px;
-  background: white;
+}
+
+
+.container {
+  background: #f9f9f9;
+}
+
+.bus-lines {
+  background: #f9f9f9;
+}
+
+.status_bar {
+  width: inherit;
+  height: auto;
 }
 
 .direction {
   background: #2B5797;
   color: white;
   padding: 2% 4%;
+  margin-top: -5px;
+}
+
+.reroute {
+  background: black;
+}
+
+.o-o-s {
+  background: red;
 }
 
 .location {
